@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerwrap, .mainwrap .footerwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerwrap, .footerwrap {
+    background-color: #1F2937;
+    color: white;
+}
+
+#header, #main, #footer {
+    width: 1040px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.headerlogo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.headerlinks {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.headerlinks a, .herotext p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herocontainer {
+    display: flex;
+    align-items: center;
+    margin: 80px 0;
+    gap: 20px;
+}
+
+.herocontainer > * {
+    flex: 1 1 50%;
+}
+
+.herotext h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.herotext button {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 0;
+    border: 0;
+}
+
+.herotext button a {
+    display: block;
+    color: #F9FAF8;
+    padding: 8px 26px;
+    font-size: 18px;
+    font-weight: bold;
+}
