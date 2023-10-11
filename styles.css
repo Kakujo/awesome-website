@@ -18,7 +18,7 @@ body {
     flex-direction: column;
 }
 
-.headerwrap, .mainwrap .footerwrap {
+.headerwrap, .mainwrap, .footerwrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,10 @@ body {
 .headerwrap, .footerwrap {
     background-color: #1F2937;
     color: white;
+}
+
+.mainwrap {
+    background-color: #FFF;
 }
 
 #header, #main, #footer {
@@ -90,4 +94,20 @@ body {
     padding: 8px 26px;
     font-size: 18px;
     font-weight: bold;
+}
+
+#main h2 {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.infoentry p {
+    width: 200px;
 }
